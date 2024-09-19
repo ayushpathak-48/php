@@ -1,4 +1,7 @@
 <?php
+// database nme: test
+// table name : student
+
 $conn = mysqli_connect('localhost', 'root', '', 'test');
 
 if ($conn->connect_error) {
